@@ -1,3 +1,4 @@
-import pandas as pd
-# print a greeting message
-print("Hello, world!")
+import webbrowser
+print('project_app.py is running')
+html_file_spec = "index.html"
+webbrowser.open(html_file_spec)
